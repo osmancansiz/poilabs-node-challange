@@ -3,12 +3,12 @@ var router = express.Router();
 
 const Points = require("../models/Points");
 
-/* GET users listing. */
 router.get("/", function(req, res, next) {
   Points.find({}).then(function(points) {
+    console.log(points.title);
     res.send(points);
   });
-  //res.send("respond with a resource");
 });
+
 
 module.exports = router;

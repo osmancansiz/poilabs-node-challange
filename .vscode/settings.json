@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/7e2832b4-e1b6-4ec5-8a0a-97aef2cedaab/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ocansiz-poilabs",
+    "appService.deploySubpath": ""
+}
